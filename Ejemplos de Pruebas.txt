@@ -1,0 +1,59 @@
+Pruebas:
+
+1. = You printed:   [0.3333333333333333, 69, 23, '"hola"']
+prog test;
+        var int: a, b, c, d;
+        [   
+            a = 3 + (2 + 2) * 5;
+            b = a * 3;
+            c = a / b;   
+
+            print("hola", a, b, c);
+
+        ]
+2. = You printed:   [0.5, 30, 15, '"hola"']
+prog test;
+        var int: a, b, c, d;
+        [   
+            a = 3 + 2 + 2 * 5;
+            b = a * 2;
+            c = a / b;   
+
+            print("hola", a, b, c);
+
+        ]
+3. You printed:   [88, 10.5, 0.3333333333333333, 69, 1587, '"hola"']
+prog test;
+        var int: a, b, c, d;
+        [   
+            a = 3 + (2 + 2) * 5;
+            b = a * 3;
+            c = a / b;
+            
+            si (5 > 1) [
+                d = 10.50;
+            ];
+            a = a * b;     
+
+            print("hola", a, b, c, d, 88);
+
+        ]
+4. You printed:   [88, 13.0, 0.3333333333333333, 69, 23, '"hola"']
+prog test;
+        var int: a, b, c, d;
+        [   
+            a = 3 + (2 + 2) * 5;
+            b = a * 3;
+            c = a / b;
+            
+            si (5 > 1) [
+                d = 10.50;
+            ];
+
+            mientras (d < 12) [
+                d = d + 2.5;
+            ];         
+
+            print("hola", a, b, c, d, 88);
+
+        ]
